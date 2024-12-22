@@ -3,33 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
-
+    <link rel="stylesheet" href="CSSReset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="font.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <title>Frontend Mentor | Expenses chart component</title>
 
 </head>
 <body>
+<div class="container">
 
-My balance
-$921.48
+    <!--    header part-->
+    <header>
+        <div class="headerDetails">
+            <p>
+                My balance
+            </p>
+            <p>
+                $921.48
+            </p>
+        </div>
+        <div class="headerLogo">
+            <img src="./images/logo.svg" alt="header logo">
+        </div>
+    </header>
 
-Spending - Last 7 days
+    <!--    detail part-->
+    <section>
+        <div class="sectionBody">
+            <h1>Spending - Last 7 days</h1>
+            <div class="chart">
 
-mon
-tue
-wed
-thu
-fri
-sat
-sun
+            </div>
+        </div>
+        <div class="sectionFooter">
+            <div class="footerSum">
+                <p>Total this month</p>
+                <p>$478.33</p>
+            </div>
+            <div class="footerDescription">
+                <p>+2.4%</p>
+                <p>from last month</p>
+            </div>
+        </div>
+    </section>
+</div>
 
-Total this month
-$478.33
 
-+2.4%
-from last month
+<!--mon-->
+<!--tue-->
+<!--wed-->
+<!--thu-->
+<!--fri-->
+<!--sat-->
+<!--sun-->
+
+
+
+
+
 
 </body>
 </html>

@@ -1,0 +1,65 @@
+body {
+    background-color: hsl(27, 66%, 92%);
+    font-family: "DM Sans";
+}
+
+.container {
+    width: 40%;
+    height: 35rem;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container header {
+    border-radius: 20px;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(33, 100%, 98%);
+    align-items: center;
+}
+
+.headerDetails{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.headerDetails :last-child{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container section{
+    width: 100%;
+    height: 25rem;
+    background-color: hsl(33, 100%, 98%) ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionBody h1{
+    /*width: 100%;*/
+    height: 1.75rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.sectionBody .chart{
+    border: black 1px solid;
+    height: 17.5rem;
+}
+
+
+.sectionFooter{
+    height: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+
